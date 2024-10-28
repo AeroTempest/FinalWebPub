@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HubSpot Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="img/favicon.png" />
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="background-video">
+    <source src="images/0912.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- Header Section -->
+<header id="header">
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/IMG_6792.JPG" alt="HubSpot Coffee Logo" class="logo-image">
+            <div class="logo-text-container">
+                <div class="logo-text">HUBSPOT COFFEE</div>
+                <p class="header-caption">HubSpot Coffee: Sip into the Chill</p>
+            </div>
+        </div>
+
+        <!-- Burger Menu Icon -->
+        <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content Wrapper -->
+<div class="main-content">
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Contact Us</h2>
+                <p>At HubSpot Coffee, we value our customers and their experiences with us. Whether you have questions about our menu, need assistance with an order, or simply want to share your feedback, we’re here to help. Our team is dedicated to ensuring that every interaction with us is a positive one. You can reach us via phone at (0928)-953-9007, or email us at coffeehubspot@gmail.com. If you’re in the area, feel free to visit us at Bartmall, 2nd Floor, Santo Rosario St, Angeles, Pampanga. We’re open Monday to Friday from 7 AM to 7 PM, and on weekends from 8 AM to 6 PM. We look forward to hearing from you and making your HubSpot Coffee experience even better!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Our Location</h3>
+                        <p>Bartmall, 2nd Floor, Santo Rosario St, Angeles, Pampanga</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Call Us</h3>
+                        <p>Phone: (0928)-953-9007</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email Us</h3>
+                        <p>Email: coffeehubspot@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Business Hours</h3>
+                        <p>Mon - Fri: 7 AM - 7 PM<br>Sat - Sun: 8 AM - 6 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="#" method="post" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="middle-name">Middle Name</label>
+                                <input type="text" id="middle-name" name="middle-name" placeholder="Enter your middle name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Your Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="platform">Select Platform</label>
+                                <select id="platform" name="platform" required>
+                                    <option value="">Choose a platform</option>
+                                    <option value="email">Email</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="tiktok">TikTok</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="cta-btn" id="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799076713!2d-74.25987568792698!3d40.69767006351714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2af83aeb69%3A0x76b1f8f3f0e97366!2sHubSpot%20Coffee!5e0!3m2!1sen!2sph!4v1634091291013!5m2!1sen!2sph"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="image-grid">
+                <div class="container">
+                    <div class="image-grid-item">
+                        <img src="images/IMG_6769.JPG" alt="Description of image 1">
+                        <p class="image-caption">Your HubSpot Coffee Experience Starts Here: Connect with Us for All Your Coffee Needs!</p>
+                    </div>
+                    <div class="image-grid-item">
+                        <img src="images/IMG_6768.JPG" alt="Description of image 2">
+                        <p class="image-caption">Got Questions or Feedback? We're Here to Brew Up Answers and Suggestions Reach Out Today!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+    <p>&copy; 2024 HubSpot Coffee. Group 4.</p>
+</footer>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        
+        const platform = document.getElementById('platform').value;
+        const firstName = document.getElementById('first-name').value;
+        const message = document.getElementById('message').value;
+
+        if (platform === 'email') {
+            window.location.href = `email_mockup.html?name=${encodeURIComponent(firstName)}&message=${encodeURIComponent(message)}`;
+        } else if (platform !== '') {
+            window.location.href = `social_media_mockup.html?platform=${encodeURIComponent(platform)}&name=${encodeURIComponent(firstName)}&message=${encodeURIComponent(message)}`;
+        } else {
+            alert('Please select a platform.');
+        }
+    });
+</script>
+
+</body>
+</html>
